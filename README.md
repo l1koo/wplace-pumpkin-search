@@ -8,6 +8,7 @@
 2. Нажмите на ссылку: [**Установить скрипт**](https://raw.githubusercontent.com/l1koo/wplace-pumpkin-search/main/pumpkin-search.user.js)
 3. Нажмите "Install" в открывшемся окне Tampermonkey
 
-## 👨‍💻 Автор
+## 📌 Наш Telegram
 
-l1kko
+[Перейти](https://t.me/yaclown1)
+
