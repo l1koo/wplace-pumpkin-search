@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name WPlace | Pumpkin Search
 // @namespace http://tampermonkey.net/
-// @version 1.1
-// @description Панель для поиска тыкв, данные берутся из открытой Excel таблицы. Мобильная версия + механизм сворачивания.
+// @version 1.1.1
+// @description Удобная панель для поиска тыкв, данные берутся из открытой Excel таблицы. Мобильная версия + механизм сворачивания.
 // @author l1kko
 // @match https://wplace.live/*
 // @grant none
@@ -367,7 +367,7 @@
             @media (max-width: 768px) {
                 #pumpkinSidebar {
                     width: 85vw;
-                    height: 60vh;
+                    height: 70vh;
                     left: 5px !important;
                     top: 5px !important;
                     border-radius: 12px;
