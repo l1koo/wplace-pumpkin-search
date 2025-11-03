@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name WPlace | Pumpkin Search
 // @namespace http://tampermonkey.net/
-// @version 1.1.2
-// @description Панель для поиска тыкв, данные берутся из открытой Excel таблицы.
+// @version 1.2
+// @description Панель для поиска тыкв, данные берутся из открытой Excel таблицы. СОБЫТИЕ С ТЫКВАМИ ЗАКОНЧИЛОСЬ!
 // @author l1kko
 // @match https://wplace.live/*
 // @grant none
@@ -229,7 +229,7 @@
         const style = document.createElement('style');
         style.textContent = `
             #pumpkinSidebar {
-                position: absolute !important; left: ${currentPos.x}px; top: ${currentPos.y}px; width: 320px; max-width: 90vw; height: 70vh; max-height: 80vh;
+                position: absolute !important; left: ${currentPos.x}px; top: ${currentPos.y}px; width: 320px; max-width: 90vw; height: 40vh; max-height: 80vh;
                 background: rgba(30, 30, 30, 0.65); border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.3); overflow: hidden; font-family: system-ui, -apple-system, sans-serif;
                 z-index: 10000; opacity: 1; color: #fff;
                 backdrop-filter: blur(10px);
@@ -437,7 +437,7 @@
                     errorEl.innerHTML = `${allPumpkins.length} тыкв загружено!`;
                     errorEl.style.color = '#4caf50';
                 } else {
-                    errorEl.innerHTML = 'Пока тыквы не найдены, подождите';
+                    errorEl.innerHTML = 'Спасибо за участие!';
                     errorEl.style.color = '#ff6600';
                 }
                 errorEl.style.display = 'block';
@@ -526,5 +526,6 @@
     window.filterPumpkinsSB = filterPumpkinsSB;
     window.toggleMinimize = toggleMinimize;
 })();
+
 
 
