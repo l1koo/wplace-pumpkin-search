@@ -1,4 +1,4 @@
-# 🎃 WPlace Pumpkin Search
+# 🎃 WPlace Pumpkin Search (НЕАКТУАЛЬНО, Т.К. ИВЕНТ ЗАКОНЧИЛСЯ)
 
 Панель для поиска тыкв, данные берутся из открытой Excel таблицы
 
@@ -11,4 +11,5 @@
 ## 📌 Наш Telegram
 
 [Перейти](https://t.me/yaclown1)
+
 
